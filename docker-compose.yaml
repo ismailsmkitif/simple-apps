@@ -1,6 +1,7 @@
 services:
   apps:
     container_name: ct-simpleapp-ismail
+    image: deni02/simpleapp-ismail
     build: ./apps
     ports:
       - "10001:3000"
